@@ -1,5 +1,13 @@
-// 1.21.1	2024-12-08T22:29:49.8564289	Blue's Biomes/Block Loot Tables
+// 1.21.1	2024-12-09T00:12:15.4209598	Blue's Biomes/Block Loot Tables
 f6e098adcaa1f3289badae4fc5c85323550811de data\bluesbiomes\loot_table\blocks\chiseled_voltstone_bricks.json
+744a1b5238650ba362547852224da3dffe454ae5 data\bluesbiomes\loot_table\blocks\voltstone_brick_wall.json
+5583b4893b6550bef4183981477d8621e56602d2 data\bluesbiomes\loot_table\blocks\voltstone_brick_stairs.json
+75364e3a978245f91bd9aeb0544e250d88216131 data\bluesbiomes\loot_table\blocks\polished_voltstone_stairs.json
+b8f0e5e03d293eed553f9d51eb7908c154f6e93c data\bluesbiomes\loot_table\blocks\voltstone_slab.json
 516d20e7c2d8c44193966b9dfc845f68fbc999e3 data\bluesbiomes\loot_table\blocks\polished_voltstone.json
-0ee6a3e1c485cfea3ee3a223f0755a1de8d858c1 data\bluesbiomes\loot_table\blocks\voltstone_bricks.json
 e034b5f54981dfd266e54e6c9f7de9ed8d00af0c data\bluesbiomes\loot_table\blocks\voltstone.json
+11b0d9ecff3e7bb198e1cd87f6df7fb1e985504f data\bluesbiomes\loot_table\blocks\polished_voltstone_slab.json
+d49e156ecef65f15e99fc488d06b71e12b3b00b6 data\bluesbiomes\loot_table\blocks\voltstone_brick_slab.json
+6cf4785be93fbb1e59d8664fba3bbb0fa8321c64 data\bluesbiomes\loot_table\blocks\voltstone_stairs.json
+92ed4d79007ab2305217a80939264898ec066c96 data\bluesbiomes\loot_table\blocks\polished_voltstone_wall.json
+0ee6a3e1c485cfea3ee3a223f0755a1de8d858c1 data\bluesbiomes\loot_table\blocks\voltstone_bricks.json

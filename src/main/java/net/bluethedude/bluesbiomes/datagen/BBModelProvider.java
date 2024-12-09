@@ -15,9 +15,24 @@ public class BBModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerMirrorable(BBBlocks.VOLTSTONE);
-        blockStateModelGenerator.registerSimpleCubeAll(BBBlocks.POLISHED_VOLTSTONE);
-        blockStateModelGenerator.registerSimpleCubeAll(BBBlocks.VOLTSTONE_BRICKS);
+
+        BlockStateModelGenerator.BlockTexturePool voltstonePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(BBBlocks.VOLTSTONE);
+        voltstonePool.stairs(BBBlocks.VOLTSTONE_STAIRS);
+        voltstonePool.slab(BBBlocks.VOLTSTONE_SLAB);
+
+        BlockStateModelGenerator.BlockTexturePool polishedVoltstonePool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(BBBlocks.POLISHED_VOLTSTONE);
+        polishedVoltstonePool.stairs(BBBlocks.POLISHED_VOLTSTONE_STAIRS);
+        polishedVoltstonePool.slab(BBBlocks.POLISHED_VOLTSTONE_SLAB);
+        polishedVoltstonePool.wall(BBBlocks.POLISHED_VOLTSTONE_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool voltstoneBrickPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(BBBlocks.VOLTSTONE_BRICKS);
+        voltstoneBrickPool.stairs(BBBlocks.VOLTSTONE_BRICK_STAIRS);
+        voltstoneBrickPool.slab(BBBlocks.VOLTSTONE_BRICK_SLAB);
+        voltstoneBrickPool.wall(BBBlocks.VOLTSTONE_BRICK_WALL);
+
         blockStateModelGenerator.registerSimpleCubeAll(BBBlocks.CHISELED_VOLTSTONE_BRICKS);
     }
 

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "bluesbiomes:block/voltstone_slab"
+    },
+    "type=double": {
+      "model": "bluesbiomes:block/voltstone"
+    },
+    "type=top": {
+      "model": "bluesbiomes:block/voltstone_slab_top"
+    }
+  }
+}

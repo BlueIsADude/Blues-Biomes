@@ -1,20 +1,7 @@
 {
   "variants": {
-    "": [
-      {
-        "model": "bluesbiomes:block/voltstone"
-      },
-      {
-        "model": "bluesbiomes:block/voltstone_mirrored"
-      },
-      {
-        "model": "bluesbiomes:block/voltstone",
-        "y": 180
-      },
-      {
-        "model": "bluesbiomes:block/voltstone_mirrored",
-        "y": 180
-      }
-    ]
+    "": {
+      "model": "bluesbiomes:block/voltstone"
+    }
   }
 }

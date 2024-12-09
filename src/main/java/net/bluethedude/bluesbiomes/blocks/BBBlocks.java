@@ -1,9 +1,7 @@
 package net.bluethedude.bluesbiomes.blocks;
 
 import net.bluethedude.bluesbiomes.BluesBiomes;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.MapColor;
+import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -22,6 +20,24 @@ public class BBBlocks {
                     .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
             )
     );
+    public static final Block VOLTSTONE_STAIRS = registerBlock("voltstone_stairs",
+            new StairsBlock(BBBlocks.VOLTSTONE.getDefaultState(), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.TERRACOTTA_CYAN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(1.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
+            )
+    );
+    public static final Block VOLTSTONE_SLAB = registerBlock("voltstone_slab",
+            new SlabBlock(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.TERRACOTTA_CYAN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(1.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
+            )
+    );
     public static final Block POLISHED_VOLTSTONE = registerBlock("polished_voltstone",
             new Block(AbstractBlock.Settings.create()
                     .mapColor(MapColor.TERRACOTTA_CYAN)
@@ -31,8 +47,62 @@ public class BBBlocks {
                     .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
             )
     );
+    public static final Block POLISHED_VOLTSTONE_STAIRS = registerBlock("polished_voltstone_stairs",
+            new StairsBlock(BBBlocks.POLISHED_VOLTSTONE.getDefaultState(), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.TERRACOTTA_CYAN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(1.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
+            )
+    );
+    public static final Block POLISHED_VOLTSTONE_SLAB = registerBlock("polished_voltstone_slab",
+            new SlabBlock(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.TERRACOTTA_CYAN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(1.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
+            )
+    );
+    public static final Block POLISHED_VOLTSTONE_WALL = registerBlock("polished_voltstone_wall",
+            new WallBlock(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.TERRACOTTA_CYAN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(1.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
+            )
+    );
     public static final Block VOLTSTONE_BRICKS = registerBlock("voltstone_bricks",
             new Block(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.TERRACOTTA_CYAN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(1.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
+            )
+    );
+    public static final Block VOLTSTONE_BRICK_STAIRS = registerBlock("voltstone_brick_stairs",
+            new StairsBlock(BBBlocks.VOLTSTONE_BRICKS.getDefaultState(), AbstractBlock.Settings.create()
+                    .mapColor(MapColor.TERRACOTTA_CYAN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(1.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
+            )
+    );
+    public static final Block VOLTSTONE_BRICK_SLAB = registerBlock("voltstone_brick_slab",
+            new SlabBlock(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.TERRACOTTA_CYAN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(1.5F, 6.0F)
+                    .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
+            )
+    );
+    public static final Block VOLTSTONE_BRICK_WALL = registerBlock("voltstone_brick_wall",
+            new WallBlock(AbstractBlock.Settings.create()
                     .mapColor(MapColor.TERRACOTTA_CYAN)
                     .instrument(NoteBlockInstrument.BASEDRUM)
                     .requiresTool()

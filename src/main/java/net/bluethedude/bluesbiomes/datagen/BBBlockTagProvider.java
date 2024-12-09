@@ -17,8 +17,30 @@ public class BBBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(BBBlocks.VOLTSTONE)
+                .add(BBBlocks.VOLTSTONE_STAIRS)
+                .add(BBBlocks.VOLTSTONE_SLAB)
                 .add(BBBlocks.POLISHED_VOLTSTONE)
+                .add(BBBlocks.POLISHED_VOLTSTONE_STAIRS)
+                .add(BBBlocks.POLISHED_VOLTSTONE_SLAB)
+                .add(BBBlocks.POLISHED_VOLTSTONE_WALL)
                 .add(BBBlocks.VOLTSTONE_BRICKS)
+                .add(BBBlocks.VOLTSTONE_BRICK_STAIRS)
+                .add(BBBlocks.VOLTSTONE_BRICK_SLAB)
+                .add(BBBlocks.VOLTSTONE_BRICK_WALL)
                 .add(BBBlocks.CHISELED_VOLTSTONE_BRICKS);
+
+        getOrCreateTagBuilder(BlockTags.STAIRS)
+                .add(BBBlocks.VOLTSTONE_STAIRS)
+                .add(BBBlocks.POLISHED_VOLTSTONE_STAIRS)
+                .add(BBBlocks.VOLTSTONE_BRICK_STAIRS);
+
+        getOrCreateTagBuilder(BlockTags.SLABS)
+                .add(BBBlocks.VOLTSTONE_SLAB)
+                .add(BBBlocks.POLISHED_VOLTSTONE_SLAB)
+                .add(BBBlocks.VOLTSTONE_BRICK_SLAB);
+
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(BBBlocks.POLISHED_VOLTSTONE_WALL)
+                .add(BBBlocks.VOLTSTONE_BRICK_WALL);
     }
 }

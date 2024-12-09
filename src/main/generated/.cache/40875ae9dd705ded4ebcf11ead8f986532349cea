@@ -1,2 +1,5 @@
-// 1.21.1	2024-12-08T22:29:49.8544295	Blue's Biomes/Tags for minecraft:block
-94bbbae5a183cd2f6dc0d1a9fa2ce86485d56cfb data\minecraft\tags\block\mineable\pickaxe.json
+// 1.21.1	2024-12-09T00:12:15.4189612	Blue's Biomes/Tags for minecraft:block
+0d7516542887dd17cb9c62c071fa2eca7a8da804 data\minecraft\tags\block\stairs.json
+6efe22637891109d4ada59fce9649d2aa9d4b54d data\minecraft\tags\block\slabs.json
+a86b2fdec455e4e3d82b831d36687086b65f0810 data\minecraft\tags\block\walls.json
+87e50edec52d6e938cc663f4d3cd09a4334f6fa1 data\minecraft\tags\block\mineable\pickaxe.json

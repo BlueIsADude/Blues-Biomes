@@ -12,8 +12,16 @@
   "item.bluesbiomes.sickle": "Sickle",
 
   "block.bluesbiomes.voltstone": "Voltstone",
+  "block.bluesbiomes.voltstone_stairs": "Voltstone Stairs",
+  "block.bluesbiomes.voltstone_slab": "Voltstone Slab",
   "block.bluesbiomes.polished_voltstone": "Polished Voltstone",
+  "block.bluesbiomes.polished_voltstone_stairs": "Polished Voltstone Stairs",
+  "block.bluesbiomes.polished_voltstone_slab": "Polished Voltstone Slab",
+  "block.bluesbiomes.polished_voltstone_wall": "Polished Voltstone Wall",
   "block.bluesbiomes.voltstone_bricks": "Voltstone Bricks",
+  "block.bluesbiomes.voltstone_brick_stairs": "Voltstone Brick Stairs",
+  "block.bluesbiomes.voltstone_brick_slab": "Voltstone Brick Slab",
+  "block.bluesbiomes.voltstone_brick_wall": "Voltstone Brick Wall",
   "block.bluesbiomes.chiseled_voltstone_bricks": "Chiseled Voltstone Bricks",
 
   "item.bluesbiomes.bloppo": "Bloppo"

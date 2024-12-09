@@ -1,8 +1,16 @@
 {
   "values": [
     "bluesbiomes:voltstone",
+    "bluesbiomes:voltstone_stairs",
+    "bluesbiomes:voltstone_slab",
     "bluesbiomes:polished_voltstone",
+    "bluesbiomes:polished_voltstone_stairs",
+    "bluesbiomes:polished_voltstone_slab",
+    "bluesbiomes:polished_voltstone_wall",
     "bluesbiomes:voltstone_bricks",
+    "bluesbiomes:voltstone_brick_stairs",
+    "bluesbiomes:voltstone_brick_slab",
+    "bluesbiomes:voltstone_brick_wall",
     "bluesbiomes:chiseled_voltstone_bricks"
   ]
 }

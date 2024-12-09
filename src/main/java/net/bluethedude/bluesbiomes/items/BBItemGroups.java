@@ -22,9 +22,18 @@ public class BBItemGroups {
                         entries.add(BBItems.BOULDERWOOD_HAMMER);
 
                         entries.add(BBBlocks.VOLTSTONE);
+                        entries.add(BBBlocks.VOLTSTONE_STAIRS);
+                        entries.add(BBBlocks.VOLTSTONE_SLAB);
                         entries.add(BBBlocks.POLISHED_VOLTSTONE);
+                        entries.add(BBBlocks.POLISHED_VOLTSTONE_STAIRS);
+                        entries.add(BBBlocks.POLISHED_VOLTSTONE_SLAB);
+                        entries.add(BBBlocks.POLISHED_VOLTSTONE_WALL);
                         entries.add(BBBlocks.VOLTSTONE_BRICKS);
+                        entries.add(BBBlocks.VOLTSTONE_BRICK_STAIRS);
+                        entries.add(BBBlocks.VOLTSTONE_BRICK_SLAB);
+                        entries.add(BBBlocks.VOLTSTONE_BRICK_WALL);
                         entries.add(BBBlocks.CHISELED_VOLTSTONE_BRICKS);
+
                         entries.add(BBItems.CHARGEBERRIES);
                         entries.add(BBItems.CHARGEBERRY_MUSH);
                         entries.add(BBItems.BLITZ_ROD);
