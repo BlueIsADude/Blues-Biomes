@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "bluesbiomes",
+	"version": "${version}",
+	"name": "Blue's Biomes",
+	"description": "Adds new blocks, items, and biomes to spice up your Minecraft world!",
+	"authors": [
+		"BlueTheDude"
+	],
+	"contact": {
+		"homepage": "https://bsky.app/profile/bluethedude.bsky.social",
+		"sources": "https://github.com/BlueTheDude/Blues-Biomes"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/bluesbiomes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.bluethedude.bluesbiomes.BluesBiomes"
+		],
+		"client": [
+			"net.bluethedude.bluesbiomes.BluesBiomesClient"
+		],
+		"fabric-datagen": [
+			"net.bluethedude.bluesbiomes.BluesBiomesDataGenerator"
+		]
+	},
+	"mixins": [
+		"bluesbiomes.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

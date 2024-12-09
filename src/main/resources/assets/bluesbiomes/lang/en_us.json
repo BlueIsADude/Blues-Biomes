@@ -1,0 +1,20 @@
+{
+  "itemgroup.bluesbiomes.blues_biomes_group": "Blue's Biomes",
+
+  "item.bluesbiomes.boulder_seed": "Boulder Seed",
+  "item.bluesbiomes.roasted_boulder_seed": "Roasted Boulder Seed",
+  "item.bluesbiomes.boulderwood_hammer": "Boulderwood Hammer",
+  "item.bluesbiomes.chargeberries": "Chargeberries",
+  "item.bluesbiomes.chargeberry_mush": "Chargeberry Mush",
+  "item.bluesbiomes.blitz_rod": "Blitz Rod",
+  "item.bluesbiomes.blitz_powder": "Blitz Powder",
+  "item.bluesbiomes.plasma_cream": "Plasma Cream",
+  "item.bluesbiomes.sickle": "Sickle",
+
+  "block.bluesbiomes.voltstone": "Voltstone",
+  "block.bluesbiomes.polished_voltstone": "Polished Voltstone",
+  "block.bluesbiomes.voltstone_bricks": "Voltstone Bricks",
+  "block.bluesbiomes.chiseled_voltstone_bricks": "Chiseled Voltstone Bricks",
+
+  "item.bluesbiomes.bloppo": "Bloppo"
+}
