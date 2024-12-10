@@ -39,6 +39,7 @@ public class BBItemGroups {
                         entries.add(BBItems.BLITZ_ROD);
                         entries.add(BBItems.BLITZ_POWDER);
                         entries.add(BBItems.PLASMA_CREAM);
+                        entries.add(BBItems.MEAT_HOOK);
                         entries.add(BBItems.SICKLE);
                     }).build());
 

@@ -1,8 +1,10 @@
 package net.bluethedude.bluesbiomes.blocks;
 
 import net.bluethedude.bluesbiomes.BluesBiomes;
+import net.bluethedude.bluesbiomes.blocks.custom.ChargeberryWireBlock;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -117,6 +119,24 @@ public class BBBlocks {
                     .requiresTool()
                     .strength(1.5F, 6.0F)
                     .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
+            )
+    );
+    public static final Block CHARGEBERRY_WIRE = registerItemlessBlock("chargeberry_wire",
+            new ChargeberryWireBlock(AbstractBlock.Settings.create()
+                    .noCollision()
+                    .breakInstantly()
+                    .pistonBehavior(PistonBehavior.DESTROY)
+                    .sounds(BlockSoundGroup.HONEY)
+            )
+    );
+
+    public static final Block MEAT_HOOK = registerItemlessBlock("meat_hook",
+            new HeavyCoreBlock(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.IRON_GRAY)
+                    .instrument(NoteBlockInstrument.SNARE)
+                    .sounds(BlockSoundGroup.HEAVY_CORE)
+                    .strength(10.0F, 1200.0F)
+                    .pistonBehavior(PistonBehavior.NORMAL)
             )
     );
 

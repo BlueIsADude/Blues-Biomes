@@ -1,0 +1,6 @@
+{
+    "parent": "bluesbiomes:block/chargeberry_mush_side",
+    "textures": {
+        "line": "bluesbiomes:block/chargeberry_mush_line0"
+    }
+}

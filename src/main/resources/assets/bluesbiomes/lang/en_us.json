@@ -9,7 +9,9 @@
   "item.bluesbiomes.blitz_rod": "Blitz Rod",
   "item.bluesbiomes.blitz_powder": "Blitz Powder",
   "item.bluesbiomes.plasma_cream": "Plasma Cream",
+  "item.bluesbiomes.meat_hook": "Meat Hook",
   "item.bluesbiomes.sickle": "Sickle",
+
 
   "block.bluesbiomes.voltstone": "Voltstone",
   "block.bluesbiomes.voltstone_stairs": "Voltstone Stairs",
@@ -23,6 +25,9 @@
   "block.bluesbiomes.voltstone_brick_slab": "Voltstone Brick Slab",
   "block.bluesbiomes.voltstone_brick_wall": "Voltstone Brick Wall",
   "block.bluesbiomes.chiseled_voltstone_bricks": "Chiseled Voltstone Bricks",
+
+  "block.bluesbiomes.chargeberry_wire": "Chargeberry Wire",
+
 
   "item.bluesbiomes.bloppo": "Bloppo"
 }

@@ -28,6 +28,12 @@ public class BBRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(BBItems.BLITZ_ROD), conditionsFromItem(BBItems.BLITZ_ROD))
                 .offerTo(exporter);
 
-        
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.COMBAT, BBItems.SICKLE, 1)
+                .input(BBItems.BLITZ_ROD)
+                .input(BBItems.MEAT_HOOK)
+                .criterion(hasItem(BBItems.MEAT_HOOK), conditionsFromItem(BBItems.MEAT_HOOK))
+                .offerTo(exporter);
+
+
     }
 }

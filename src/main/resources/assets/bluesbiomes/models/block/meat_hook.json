@@ -1,0 +1,72 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "bluesbiomes:block/meat_hook",
+		"particle": "bluesbiomes:block/meat_hook"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [6, 0, 6],
+			"to": [10, 4, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [12, 12, 16, 16], "texture": "#0"},
+				"east": {"uv": [12, 12, 16, 16], "texture": "#0"},
+				"south": {"uv": [12, 12, 16, 16], "texture": "#0"},
+				"west": {"uv": [12, 12, 16, 16], "texture": "#0"},
+				"up": {"uv": [12, 12, 16, 16], "texture": "#0"},
+				"down": {"uv": [12, 12, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "hook",
+			"from": [8, 4, 2],
+			"to": [8, 21, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 4, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 16], "texture": "#0"},
+				"east": {"uv": [12, 0, 0, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 1, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 12, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 1, 12], "texture": "#0"},
+				"down": {"uv": [0, 0, 1, 12], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3.75, 1.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 3.75, 1.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 3.75, 1.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 3.75, 1.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, -1.5, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"head": {
+			"translation": [0, 12.25, 0]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [0, -2, 0],
+			"scale": [0.75, 0.75, 0.75]
+		}
+	}
+}

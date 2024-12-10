@@ -47,7 +47,8 @@ public class BBModelProvider extends FabricModelProvider {
         itemModelGenerator.register(BBItems.BLITZ_ROD, Models.HANDHELD);
         itemModelGenerator.register(BBItems.BLITZ_POWDER, Models.GENERATED);
         itemModelGenerator.register(BBItems.PLASMA_CREAM, Models.GENERATED);
-        itemModelGenerator.register(BBItems.SICKLE, Models.HANDHELD);
+        itemModelGenerator.register(BBItems.MEAT_HOOK, Models.HANDHELD);
+        itemModelGenerator.register(BBItems.SICKLE, Models.HANDHELD_MACE);
 
         itemModelGenerator.register(BBItems.BLOPPO, Models.GENERATED);
     }

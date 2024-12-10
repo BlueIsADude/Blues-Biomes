@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "bluesbiomes:blitz_rod"
+    },
+    {
+      "item": "bluesbiomes:meat_hook"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "bluesbiomes:sickle"
+  }
+}

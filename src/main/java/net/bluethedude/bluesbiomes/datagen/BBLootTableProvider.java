@@ -1,6 +1,7 @@
 package net.bluethedude.bluesbiomes.datagen;
 
 import net.bluethedude.bluesbiomes.blocks.BBBlocks;
+import net.bluethedude.bluesbiomes.items.BBItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -26,5 +27,7 @@ public class BBLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(BBBlocks.VOLTSTONE_BRICK_SLAB, slabDrops(BBBlocks.VOLTSTONE_BRICK_SLAB));
         addDrop(BBBlocks.VOLTSTONE_BRICK_WALL);
         addDrop(BBBlocks.CHISELED_VOLTSTONE_BRICKS);
+        addDrop(BBBlocks.CHARGEBERRY_WIRE, BBItems.CHARGEBERRY_MUSH);
+        addDrop(BBBlocks.MEAT_HOOK, BBItems.MEAT_HOOK);
     }
 }

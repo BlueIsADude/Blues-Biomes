@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_meat_hook": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bluesbiomes:meat_hook"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "bluesbiomes:sickle"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_meat_hook"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bluesbiomes:sickle"
+    ]
+  }
+}
