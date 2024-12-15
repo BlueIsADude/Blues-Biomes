@@ -1,6 +1,8 @@
 package net.bluethedude.bluesbiomes;
 
 import net.bluethedude.bluesbiomes.blocks.BBBlocks;
+import net.bluethedude.bluesbiomes.effects.BBEffects;
+import net.bluethedude.bluesbiomes.entities.damage.BBDamageTypes;
 import net.bluethedude.bluesbiomes.items.BBItemGroups;
 import net.bluethedude.bluesbiomes.items.BBItems;
 import net.fabricmc.api.ModInitializer;
@@ -18,5 +20,8 @@ public class BluesBiomes implements ModInitializer {
 
 		BBItems.registerBBItems();
 		BBBlocks.registerBBBlocks();
+
+		BBEffects.registerBBEffects();
+		BBDamageTypes.registerBBDamageTypes();
 	}
 }

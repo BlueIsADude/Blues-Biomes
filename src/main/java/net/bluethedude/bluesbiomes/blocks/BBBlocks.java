@@ -2,6 +2,7 @@ package net.bluethedude.bluesbiomes.blocks;
 
 import net.bluethedude.bluesbiomes.BluesBiomes;
 import net.bluethedude.bluesbiomes.blocks.custom.ChargeberryWireBlock;
+import net.bluethedude.bluesbiomes.blocks.custom.MeatHookBlock;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.block.piston.PistonBehavior;
@@ -131,7 +132,7 @@ public class BBBlocks {
     );
 
     public static final Block MEAT_HOOK = registerItemlessBlock("meat_hook",
-            new HeavyCoreBlock(AbstractBlock.Settings.create()
+            new MeatHookBlock(AbstractBlock.Settings.create()
                     .mapColor(MapColor.IRON_GRAY)
                     .instrument(NoteBlockInstrument.SNARE)
                     .sounds(BlockSoundGroup.HEAVY_CORE)

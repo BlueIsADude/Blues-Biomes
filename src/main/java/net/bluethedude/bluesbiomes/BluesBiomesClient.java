@@ -12,6 +12,7 @@ public class BluesBiomesClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(BBBlocks.CHARGEBERRY_WIRE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(BBBlocks.MEAT_HOOK, RenderLayer.getCutout());
 
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
             int power = state.get(ChargeberryWireBlock.POWER);
