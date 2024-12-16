@@ -4,7 +4,6 @@ import net.bluethedude.bluesbiomes.entities.damage.BBDamageTypes;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
-import net.minecraft.entity.player.PlayerEntity;
 
 public class ElectrifiedEffect extends StatusEffect {
     public ElectrifiedEffect(StatusEffectCategory category, int color) {

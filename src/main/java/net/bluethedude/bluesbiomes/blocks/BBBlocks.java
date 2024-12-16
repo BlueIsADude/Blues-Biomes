@@ -3,6 +3,7 @@ package net.bluethedude.bluesbiomes.blocks;
 import net.bluethedude.bluesbiomes.BluesBiomes;
 import net.bluethedude.bluesbiomes.blocks.custom.ChargeberryWireBlock;
 import net.bluethedude.bluesbiomes.blocks.custom.MeatHookBlock;
+import net.bluethedude.bluesbiomes.fluid.BBFluids;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.block.piston.PistonBehavior;
@@ -120,6 +121,20 @@ public class BBBlocks {
                     .requiresTool()
                     .strength(1.5F, 6.0F)
                     .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
+            )
+    );
+    public static final Block PLASMA = registerItemlessBlock("plasma",
+            new FluidBlock(BBFluids.PLASMA, AbstractBlock.Settings.create()
+                    .mapColor(MapColor.BRIGHT_TEAL)
+                    .replaceable()
+                    .noCollision()
+                    .ticksRandomly()
+                    .strength(100.0F)
+                    .luminance(state -> 15)
+                    .pistonBehavior(PistonBehavior.DESTROY)
+                    .dropsNothing()
+                    .liquid()
+                    .sounds(BlockSoundGroup.INTENTIONALLY_EMPTY)
             )
     );
     public static final Block CHARGEBERRY_WIRE = registerItemlessBlock("chargeberry_wire",
