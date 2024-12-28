@@ -2,13 +2,10 @@ package net.bluethedude.bluesbiomes.items;
 
 import net.bluethedude.bluesbiomes.BluesBiomes;
 import net.bluethedude.bluesbiomes.blocks.BBBlocks;
-import net.bluethedude.bluesbiomes.fluid.BBFluids;
 import net.bluethedude.bluesbiomes.items.custom.SickleItem;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.item.AliasedBlockItem;
-import net.minecraft.item.BucketItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -20,12 +17,6 @@ public class BBItems {
             new Item(new Item.Settings().food(BBFoodComponents.ROASTED_BOULDER_SEED)));
     public static final Item BOULDERWOOD_HAMMER = registerItem("boulderwood_hammer", new Item(new Item.Settings()));
 
-    public static final Item PLASMA_BUCKET = registerItem("plasma_bucket",
-            new BucketItem(BBFluids.PLASMA, new Item.Settings()
-                    .recipeRemainder(Items.BUCKET)
-                    .maxCount(1)
-            )
-    );
     public static final Item CHARGEBERRIES = registerItem("chargeberries",
             new Item(new Item.Settings()
                     .food(BBFoodComponents.CHARGEBERRIES)

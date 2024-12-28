@@ -41,8 +41,8 @@ public class SickleItem extends Item {
     public static ToolComponent createToolComponent() {
         return new ToolComponent(List.of(
                 ToolComponent.Rule.ofAlwaysDropping(List.of(Blocks.COBWEB), 15.0F),
-                ToolComponent.Rule.of(BlockTags.SWORD_EFFICIENT, 1.5F),
-                ToolComponent.Rule.ofAlwaysDropping(BlockTags.HOE_MINEABLE, 5.0F)), 1.0F, 2);
+                ToolComponent.Rule.of(BlockTags.SWORD_EFFICIENT, 5.0F),
+                ToolComponent.Rule.ofAlwaysDropping(BlockTags.HOE_MINEABLE, 15.0F)), 1.0F, 2);
     }
 
     @Override

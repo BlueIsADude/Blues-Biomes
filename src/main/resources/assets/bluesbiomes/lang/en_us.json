@@ -28,6 +28,7 @@
 
   "block.bluesbiomes.chargeberry_wire": "Chargeberry Wire",
 
+  "effect.bluesbiomes.electrified": "Electrified",
 
   "death.attack.bluesbiomes.electrocution": "%1$s was shocked to death",
   "death.attack.bluesbiomes.electrocution.item": "%1$s was shocked to death by %2$s wielding %3$s",

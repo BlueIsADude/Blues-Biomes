@@ -1,23 +1,27 @@
 package net.bluethedude.bluesbiomes.effects;
 
-import net.bluethedude.bluesbiomes.entities.damage.BBDamageTypes;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 
 public class ElectrifiedEffect extends StatusEffect {
-    public ElectrifiedEffect(StatusEffectCategory category, int color) {
-        super(category, color);
+    public ElectrifiedEffect(StatusEffectCategory statusEffectCategory, int i) {
+        super(statusEffectCategory, i);
     }
 
     @Override
     public boolean applyUpdateEffect(LivingEntity entity, int amplifier) {
-        entity.damage(BBDamageTypes.of(entity.getWorld(), BBDamageTypes.ELECTROCUTION), 1);
-        return super.applyUpdateEffect(entity, amplifier);
+        if (entity.getMovement().horizontalLengthSquared() == 0) {
+            entity.damage(entity.getDamageSources().lightningBolt(), 0.25F);
+        } else {
+            entity.damage(entity.getDamageSources().lightningBolt(), 1.0F);
+        }
+        return true;
     }
 
     @Override
     public boolean canApplyUpdateEffect(int duration, int amplifier) {
-        return true;
+        int i =  15 >> amplifier;
+        return i > 0 ? duration % i == 0 : true;
     }
 }
