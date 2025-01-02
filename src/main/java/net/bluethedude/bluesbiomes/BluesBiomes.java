@@ -5,6 +5,7 @@ import net.bluethedude.bluesbiomes.effects.BBEffects;
 import net.bluethedude.bluesbiomes.entities.damage.BBDamageTypes;
 import net.bluethedude.bluesbiomes.items.BBItemGroups;
 import net.bluethedude.bluesbiomes.items.BBItems;
+import net.bluethedude.bluesbiomes.sounds.BBSounds;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -23,5 +24,6 @@ public class BluesBiomes implements ModInitializer {
 
 		BBEffects.registerBBEffects();
 		BBDamageTypes.registerBBDamageTypes();
+		BBSounds.registerBBSounds();
 	}
 }

@@ -1,5 +1,6 @@
 package net.bluethedude.bluesbiomes.items.custom;
 
+import net.bluethedude.bluesbiomes.effects.BBEffects;
 import net.bluethedude.bluesbiomes.items.BBItems;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -10,6 +11,7 @@ import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
+import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.*;
 import net.minecraft.registry.tag.BlockTags;
@@ -57,7 +59,10 @@ public class SickleItem extends Item {
 
     @Override
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        return true;
+        if (!target.getWorld().isClient()) {
+            target.addStatusEffect(new StatusEffectInstance(BBEffects.ELECTRIFIED, 80, 0));
+        }
+        return super.postHit(stack, target, attacker);
     }
 
     @Override

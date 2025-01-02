@@ -12,16 +12,16 @@ public class ElectrifiedEffect extends StatusEffect {
     @Override
     public boolean applyUpdateEffect(LivingEntity entity, int amplifier) {
         if (entity.getMovement().horizontalLengthSquared() == 0) {
-            entity.damage(entity.getDamageSources().lightningBolt(), 0.25F);
-        } else {
             entity.damage(entity.getDamageSources().lightningBolt(), 1.0F);
+        } else {
+            entity.damage(entity.getDamageSources().lightningBolt(), 4.0F);
         }
         return true;
     }
 
     @Override
     public boolean canApplyUpdateEffect(int duration, int amplifier) {
-        int i =  15 >> amplifier;
+        int i =  40 >> amplifier;
         return i > 0 ? duration % i == 0 : true;
     }
 }

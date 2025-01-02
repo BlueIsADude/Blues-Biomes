@@ -1,0 +1,26 @@
+{
+  "sickle_charge": {
+    "subtitle": "sound.bluesbiomes.sickle_charge",
+    "sounds": [
+      "bluesbiomes:sickle_charge"
+    ]
+  },
+  "sickle_decay": {
+    "subtitle": "sound.bluesbiomes.sickle_decay",
+    "sounds": [
+      "bluesbiomes:sickle_decay"
+    ]
+  },
+  "sickle_shock": {
+    "subtitle": "sound.bluesbiomes.sickle_shock",
+    "sounds": [
+      "bluesbiomes:sickle_shock"
+    ]
+  },
+  "sickle_shock_storm": {
+    "subtitle": "sound.bluesbiomes.sickle_shock",
+    "sounds": [
+      "bluesbiomes:sickle_shock_storm"
+    ]
+  }
+}

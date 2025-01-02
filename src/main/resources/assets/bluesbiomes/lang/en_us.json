@@ -30,6 +30,10 @@
 
   "effect.bluesbiomes.electrified": "Electrified",
 
+  "sound.bluesbiomes.sickle_charge": "Sickle charges",
+  "sound.bluesbiomes.sickle_decay": "Sickle decays",
+  "sound.bluesbiomes.sickle_shock": "Shock attack",
+
   "death.attack.bluesbiomes.electrocution": "%1$s was shocked to death",
   "death.attack.bluesbiomes.electrocution.item": "%1$s was shocked to death by %2$s wielding %3$s",
   "death.attack.bluesbiomes.electrocution.player": "%1$s was shocked to death by %2$s",
